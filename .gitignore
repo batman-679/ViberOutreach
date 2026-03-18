@@ -1,0 +1,16 @@
+# Ignore Streamlit's local secrets and config
+.streamlit/
+secrets.toml
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Ignore the Google credentials file
+credentials.json
+
+# Ignore system junk
+.DS_Store
+Thumbs.db
